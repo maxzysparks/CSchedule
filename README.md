@@ -1,6 +1,6 @@
-# Content-scheduler-for-social-media-platforms
+Social Media Scheduler
 
-Sure! Here is a sample README for the SocialMediaScheduler class:
+
 
 Social Media Scheduler
 This Python class allows you to schedule social media posts and publish them at a specified time. It has the following features:
