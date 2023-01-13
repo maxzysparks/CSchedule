@@ -1,14 +1,11 @@
-Social Media Scheduler
-
-
-
-Social Media Scheduler
+# Social Media Scheduler
 This Python class allows you to schedule social media posts and publish them at a specified time. It has the following features:
 
 Schedule posts for multiple platforms (e.g., Twitter, Facebook, Instagram)
 View the list of scheduled posts for all platforms or for a specific platform
 Publish the next post to be published
-Usage
+
+## Usage
 To use the SocialMediaScheduler class, first import it:
 
 from social_media_scheduler import SocialMediaScheduler
@@ -26,7 +23,7 @@ scheduler.schedule_post('Twitter', 'Hello, world!', '2022-01-01 12:00:00')
 get_scheduled_posts()
 This method returns a list of all scheduled posts. Each post is represented as a dictionary with the following keys:
 
-platform: the platform for the post (e.g., 'Twitter', 'Facebook', 'Instagram')
+**platform**: the platform for the post (e.g., 'Twitter', 'Facebook', 'Instagram')
 message: the message for the post
 time: the scheduled time for the post, as a datetime object
 
